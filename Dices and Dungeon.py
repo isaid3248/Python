@@ -38,7 +38,7 @@ Canavarın canı: {}
 Bizim canımız: {}
 """.format(ccan, can))
             time.sleep(1)
-    else:
+    elif x == "D":
         if a == 1:
             print("Atak savuşturuldu.")
             print("""
@@ -53,6 +53,13 @@ Canavarın canı: {}
 Bizim canımız: {}
 """.format(ccan, can))
             time.sleep(1)
+    else:
+            print("Geçersiz hamle!")
+            print("""
+Canavarın canı: {}
+Bizim canımız: {}
+""".format(ccan, can))
+            time.sleep(0.5)
 
 if ccan < 0:
     print("Canavarı mağlup ettin.")
