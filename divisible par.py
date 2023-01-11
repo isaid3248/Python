@@ -1,5 +1,5 @@
 def fonction(x, y):
-    if x % y == 0:
-        return True
-    else:
-        return False
+    return x % y == 0
+        
+
+print(fonction(8, 4))
